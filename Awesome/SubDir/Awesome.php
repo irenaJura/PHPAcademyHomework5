@@ -10,14 +10,6 @@ class Awesome
     }
 }
 
-// Tomina referenca
-//namespace Inchoo\Catalog;
-//
-//class Product
-//{
-//
-//    public function getType()
-//    {
-//        return 'Inchoo Product';
-//    }
-//}
+//$a = new Awesome();
+//echo $a->viewAction();
+//var_dump($a);
