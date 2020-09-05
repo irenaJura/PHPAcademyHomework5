@@ -9,7 +9,3 @@ class Awesome
         return get_class($this);
     }
 }
-
-//$a = new Awesome();
-//echo $a->viewAction();
-//var_dump($a);

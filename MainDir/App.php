@@ -2,10 +2,14 @@
 
 namespace MainDir;
 
+use Prefix\Prefix;
+
 final class App
 {
-    public function randomViewAction($randomClass)
+    public function randomViewAction($dateStr, $random)
     {
-        return $randomClass->viewAction();
+        return $dateStr . ' ' . $random->viewAction();
     }
 }
+
+
